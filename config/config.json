@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "sa",
+    "password": "Umg$2024",
+    "database": "GDA00271_OT_JAVIER_PIRIR",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "sa",
+    "password": "Umg$2024",
+    "database": "GDA00271_OT_JAVIER_PIRIR",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "sa",
+    "password": "Umg$2024",
+    "database": "GDA00271_OT_JAVIER_PIRIR",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
