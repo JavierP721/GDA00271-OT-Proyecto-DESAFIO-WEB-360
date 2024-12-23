@@ -7,4 +7,4 @@ router.post('/', authMiddleware, RolController.createRol);
 router.put('/:id', authMiddleware, RolController.updateRol);
 router.get('/', authMiddleware, RolController.getAllRoles);
 
-module.exports = router;const express = require('express');
+module.exports = router;
