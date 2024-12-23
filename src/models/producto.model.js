@@ -1,5 +1,5 @@
 const sql = require('mssql');
-const pool = require('../src/config/db.js');
+const pool = require('../config/db.js');
 
 class Producto {
     static async create(data) {

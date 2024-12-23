@@ -1,5 +1,5 @@
-const Orden = require('../src/models/orden.model.js');
-const DetalleOrden = require('../src/models/detalle.model.js');
+const Orden = require('../models/orden.model.js');
+const DetalleOrden = require('../models/detalle.model.js');
 
 class OrdenController {
     static async createOrden(req, res) {

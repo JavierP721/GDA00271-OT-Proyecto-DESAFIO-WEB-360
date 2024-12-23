@@ -1,6 +1,6 @@
 const bcrypt = require('bcryptjs');
-const { generateToken, comparePasswords } = require('../src/middleware/auth');
-const Usuario = require('../src/models/usuario.model.js');
+const { generateToken, comparePasswords } = require('../middleware/auth');
+const Usuario = require('../models/usuario.model.js');
 
 class AuthController {
     static async login(req, res) {

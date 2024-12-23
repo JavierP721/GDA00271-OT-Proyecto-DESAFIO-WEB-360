@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const EstadoController = require('../src/controllers/estado.controller');
-const authMiddleware = require('../src/middleware/auth');
+const EstadoController = require('../controllers/estado.controller');
+const authMiddleware = require('../middleware/auth');
 
 // Rutas para Estado
 router.post('/', authMiddleware, EstadoController.createEstado);

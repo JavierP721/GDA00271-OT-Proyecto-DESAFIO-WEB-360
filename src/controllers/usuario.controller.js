@@ -1,4 +1,4 @@
-const Usuario = require('../src/models/usuario.model.js');
+const Usuario = require('../models/usuario.model.js');
 
 class UsuarioController {
     static async createUsuario(req, res) {

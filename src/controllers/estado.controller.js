@@ -1,4 +1,4 @@
-const Estado = require('../src/models/estado.model');
+const Estado = require('../models/estado.model');
 
 class EstadoController {
     static async createEstado(req, res) {

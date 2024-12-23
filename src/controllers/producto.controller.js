@@ -1,4 +1,4 @@
-const Producto = require('../src/models/producto.model.js');
+const Producto = require('../models/producto.model.js');
 
 class ProductoController {
     static async createProducto(req, res) {

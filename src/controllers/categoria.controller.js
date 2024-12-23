@@ -1,4 +1,4 @@
-const Categoria = require('../src/models/categoria.model.js');
+const Categoria = require('../models/categoria.model.js');
 
 class CategoriaController {
     static async createCategoria(req, res) {

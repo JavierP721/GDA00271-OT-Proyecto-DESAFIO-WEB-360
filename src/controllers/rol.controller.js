@@ -1,4 +1,4 @@
-const Rol = require('../src/models/rol.model');
+const Rol = require('../models/rol.model');
 
 class RolController {
     static async createRol(req, res) {
